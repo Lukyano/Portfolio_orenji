@@ -1,0 +1,194 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary_color: rgb(255, 255, 83);
+    --secondary_color: rgb(0, 0, 0);
+    --third_color: rgb(102, 102, 102);
+    --fourth_color: rgb(219, 40, 40);
+    --teritory_color: white;
+}
+
+body{
+    background-color: var(--secondary_color);
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--primary_color);
+    box-shadow: 0 2px 4px 0 var(--third_color), 0 4px 10px 0 var(--third_color);
+}
+
+.menu ul{
+    display: inline;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu ul a{
+    font-size: 18px;
+    color: var(--secondary_color);
+    transition: transform 0.3s, color 0.3s;
+}
+
+.menu a:hover{
+    color: var(--fourth_color);
+    transform: translateY(-5px);
+}
+
+.logo{
+    border-radius: 100px;
+    margin: 2px;
+}
+
+section{
+    margin-top: 10px;
+    padding-bottom: 20px;
+    background-color: var(--third_color);
+}
+
+section h2{
+    padding-left: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    background-color: var(--primary_color);
+}
+
+footer ul{
+    padding: 3px 0;
+}
+
+.kontakt{
+    padding: 1rem 0 0 0;
+}
+
+.soc ul{
+    display: inline;
+    padding: 0 5px;
+}
+
+.soc{
+    padding: 2rem 0 0 0;
+}
+
+.onas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30rem;
+    margin: 0 auto ;
+    background-color: var(--primary_color);
+    color: var(--secondary_color);
+    border: 3px solid var(--primary_color);
+    border-radius: 10px;
+}
+
+.onas p{
+    padding: 0 15px;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    max-width: 100rem;
+    margin: 10px auto;
+    background-color: var(--primary_color);
+    color: var(--secondary_color);
+    border: 3px solid var(--primary_color);
+    border-radius: 10px;
+}
+
+.nadpis{
+    margin-left: 30px;
+}
+
+.onasHomepage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50rem;
+    margin: 10px auto;
+    background-color: var(--primary_color);
+    color: var(--secondary_color);
+    border: 3px solid var(--primary_color);
+    border-radius: 10px;   
+}
+
+.onasHomepage p{
+    padding: 0 15px;
+}
+
+.clanky{
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    background-color: var(--primary_color);
+    color: var(--secondary_color);
+    border: 3px solid var(--primary_color);
+    border-radius: 10px;
+}
+
+.clanky h2, .clanky p{
+    padding: 10px;
+}
+
+.clanky a{
+    position: relative;
+    align-self: end;
+    padding: 10px 30px;
+    margin-right: 10px;
+    border: 3px solid var(--secondary_color);
+    background-color: var(--secondary_color);
+    color: var(--teritory_color);
+    border-radius: 20px;
+    transition: transform 0.3s ease 0s;
+}
+
+.clanky a:hover{
+    color: var(--primary_color);
+    transform: translateY(-5px);
+}
+
+.background{
+    background-color: var(--third_color);
+}
+
+.nadpis{
+    max-width: 90rem;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.PS3{
+    text-align: center;
+    opacity: 60%;
+    position: relative;
+    right: 6rem;
+}
+
+.clankyImage img{
+    border-radius: 20px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.meeting{
+    position: absolute;
+    top: 30rem;
+    left: 25rem;
+}
