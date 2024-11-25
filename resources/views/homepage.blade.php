@@ -11,8 +11,7 @@
     <header>
         <a href="homepage"><img class="logo" src="\images\Orenji_logo.jpg" alt="Logo" height="80px"></a>
         <nav class="menu">
-            <ul><a href="homepage">domů</a></ul>
-            <ul><a href="onas">o nás</a></ul>
+            <ul><a href="onas">o mě</a></ul>
             <ul><a href="recenzeHer">recenze her</a></ul>
             <ul><a href="recenzeFilmuASerialu">recenze filmů a seriálů</a></ul>
             <ul><a href="kontakt">kontakt</a></ul>
@@ -31,10 +30,11 @@
     <h1>Ahoj, Já jsem Orenji.</h1>
 
     <section class="onasHomepage">
-        <h2>O nás</h2>
+        <h2>O mě</h2>
         <p>
-            Jsme malá skupina, kde nás baví hrát videohry a dívat se na filmy a seriály.
-            Máme spoustu zkušeností a praxí na to, abychom rozumně zhodnotily, co nás baví.
+            Jsem velký hráč videoher s velkou zkušeností od malička.
+            Rád se i dívám na filmy a seriály.
+            Proto jsem začal dělat videa a recenze na YT.
         </p>
     </section>
     

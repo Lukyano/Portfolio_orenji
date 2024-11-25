@@ -11,8 +11,7 @@
     <header>
         <a href="homepage"><img class="logo" src="\images\Orenji_logo.jpg" alt="Logo" height="80px"></a>
         <nav class="menu">
-            <ul><a href="homepage">domů</a></ul>
-            <ul><a href="onas">o nás</a></ul>
+            <ul><a href="onas">o mě</a></ul>
             <ul><a href="recenzeHer">recenze her</a></ul>
             <ul><a href="recenzeFilmuASerialu">recenze filmů a seriálů</a></ul>
             <ul><a href="kontakt">kontakt</a></ul>

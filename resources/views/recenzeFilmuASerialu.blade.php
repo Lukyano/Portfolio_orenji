@@ -11,8 +11,7 @@
     <header>
         <a href="homepage"><img class="logo" src="\images\Orenji_logo.jpg" alt="Logo" height="80px"></a>
         <nav class="menu">
-            <ul><a href="homepage">domů</a></ul>
-            <ul><a href="onas">o nás</a></ul>
+            <ul><a href="onas">o mě</a></ul>
             <ul><a href="recenzeHer">recenze her</a></ul>
             <ul><a href="recenzeFilmuASerialu">recenze filmů a seriálů</a></ul>
             <ul><a href="kontakt">kontakt</a></ul>
@@ -33,7 +32,7 @@
 
         <div class="blog">
             <h2>
-                Lorem ipsum dolor sit amet
+                My happy Marriage
             </h2>
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -45,7 +44,7 @@
 
         <div class="blog">
             <h2>
-                Lorem ipsum dolor sit amet
+                Deadpool and Wolverine
             </h2>
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
@@ -59,7 +58,7 @@
 
         <div class="blog">
             <h2>
-                Lorem ipsum dolor sit amet
+                Mieruko-chan
             </h2>
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 

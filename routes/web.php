@@ -20,7 +20,7 @@ Route::get('/recenzeHer', function () {
 });
 
 Route::get('/recenzeFilmuASerialu', function () {
-    return view('recenezFilmuASerialu');
+    return view('recenzeFilmuASerialu');
 });
 
 Route::middleware('auth')->group(function () {
