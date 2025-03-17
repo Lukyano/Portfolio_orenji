@@ -1,0 +1,14 @@
+@layer base{
+    @font-face {
+        font-family: Ranade;
+        src: url(/fonts/Ranade/Ranade-Regular.ttf) format("ttf");
+    }
+    @font-face {
+        font-family: Supreme;
+        src: url(/fonts/Supreme/Supreme-Regular.ttf) format("ttf");
+    }
+    @font-face {
+        font-family: GeneralSans;
+        src: url(/fonts/GeneralSans/GeneralSans-Regular.ttf) format("ttf");
+    }
+}

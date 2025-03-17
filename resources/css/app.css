@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import './fonts.css';
+
+.h50{
+    height: -2rem;
+}
+
+.transparent{
+    background-color: transparent;
+}
+
+.inline{
+    display: inline;
+}

@@ -17,6 +17,7 @@ return new class extends Migration
             $table->text('description'); // Přidání sloupce pro popis produktu
             $table->decimal('price', 8, 2); // Přidání sloupce pro cenu (8 číslic, 2 desetinná místa)
             $table->string('sku')->unique(); // Přidání sloupce pro SKU, jedinečný identifikátor
+            $table->foreign('photo_id')->references('id')->on('photos');
             $table->integer('in_stock'); // Přidání sloupce pro množství na skladě
             $table->timestamps(); // Automatické sloupce created_at a updated_at
         });
