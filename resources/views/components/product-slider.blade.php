@@ -1,11 +1,11 @@
  <!-- Products Horizontal Scroll Section -->
  <div class="py-10">
-    <h2 class=" text-white text-3xl font-semibold text-center">Naše Produkty</h2>
+    <h2 class="text-3xl font-semibold text-center">Naše Produkty</h2>
     <div class="overflow-x-auto mt-6">
         <div class="flex space-x-4">
             @foreach($products as $product)
                 <div class="flex-shrink-0 w-64">
-                    <div class="bg-white shadow-md rounded-lg overflow-hidden flex flex-col justify-between h-full">
+                    <div class="shadow-md rounded-lg overflow-hidden flex flex-col justify-between h-full">
                         <div>
                             <img src="{{ $product->image_url }}" alt="{{ $product->name }}" class="object-cover w-full h-48">
                             <div class="p-4">

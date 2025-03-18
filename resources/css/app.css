@@ -19,3 +19,15 @@
 .inline{
     display: inline;
 }
+
+.space-around{
+    justify-content: space-around;
+}
+
+.shadow{
+    box-shadow: 3px 8px 5px rgba(0, 0, 0, 0.500);
+}
+
+.max-w{
+    max-width: 20rem;
+}

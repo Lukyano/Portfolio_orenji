@@ -1,6 +1,6 @@
 <div class="py-10">
-        <h2 class="text-3xl font-semibold  text-white  text-center">Contact Form</h2>
-        <form class="max-w-md mx-auto mt-4 p-6 bg-white shadow-md rounded-lg" action="#" method="POST">
+        <h2 class="text-3xl font-semibold text-center">Contact Form</h2>
+        <form class="max-w-md mx-auto mt-4 p-6 shadow rounded-lg" action="#" method="POST">
             @csrf
             <div class="mb-4">
                 <label for="name" class="block text-sm font-medium text-gray-700">Jméno</label>
