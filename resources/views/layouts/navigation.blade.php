@@ -76,7 +76,8 @@
                 </x-dropdown>
             </div>
 
-            <flux:button x-data x-on:click="$flux.dark = ! $flux.dark">Toggle</flux:button>
+            <div class="max-w-7xl lg:p-8">
+            <x-theme-toggle/>
 
             <!-- Hamburger -->
             <div class="-me-2 flex items-center sm:hidden">

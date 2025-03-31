@@ -5,6 +5,7 @@ const Unfonts = require("unplugin-fonts");
 /** @type {import('tailwindcss').Config} */
 export default {
     presets: [preset],
+    darkMode: 'class',
     content: [
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
         './app/Filament/**/*.php',
@@ -27,4 +28,5 @@ export default {
     plugins: [
         
     ],
+    
 };

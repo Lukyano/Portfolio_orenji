@@ -13,8 +13,6 @@
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    
-    @fluxAppearance
 
     <!-- GSAP for animations -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -81,7 +79,7 @@
         }
     </style>
 </head>
-<body class="font-Ranade antialiased  h-screen">
+<body class="font-Ranade antialiased  h-screen antialiased" x-data="{darkMode: false}" :class="{'dark': darkMode === true }">
     <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
         <!-- Page transition overlay with "Barvio" text -->
         <div class="page-transition">
@@ -159,7 +157,5 @@
             }
         });
     </script>
-
-@fluxScripts
 </body>
 </html>
