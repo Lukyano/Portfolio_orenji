@@ -1,4 +1,4 @@
-<nav x-data="{ open: false }" class="bg-white dark:bg-gray-800 border-b border-gray-100 dark:border-gray-700 fixed w-full z-50">
+<nav x-data="{ open: false }" class="bg-white dark:tx dark:bg-black border-b border-gray-100 dark:border-gray-700 fixed w-full z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex space-around h-16">
             <div class="flex">
@@ -76,7 +76,7 @@
                 </x-dropdown>
             </div>
 
-            <div class="max-w-7xl lg:p-8">
+            <div class="max-w-7xl pd">
             <x-theme-toggle/>
 
             <!-- Hamburger -->

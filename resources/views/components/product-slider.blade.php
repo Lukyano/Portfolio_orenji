@@ -1,5 +1,5 @@
  <!-- Products Horizontal Scroll Section -->
- <section class="bg">
+ <section x-data="{ open: false }" class="bg-white dark:tx dark:bg-black">
     <div class="py-10">
         <h2 class="text-3xl font-semibold text-center">Naše Produkty</h2>
         <div class="overflow-x-auto mt-6">

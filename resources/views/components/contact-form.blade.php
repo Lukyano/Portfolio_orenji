@@ -1,4 +1,4 @@
-<section class="bg">
+<section x-data="{ open: false }" class="bg-white dark:tx dark:bg-black">
     <div class="py-10">
             <h2 class="text-3xl font-semibold text-center">Contact Form</h2>
             <form class="max-w-md mx-auto mt-4 p-6 shadow rounded-lg" action="#" method="POST">

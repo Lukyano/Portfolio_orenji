@@ -2,14 +2,14 @@
 
 @section('content')
     <!-- Hero Section with Image and Gradient -->
-    <div class="font-ranad height flex justify-center items-center">
-        <h1 class="font-Ranade text-4xl font-bold">Vítejte na naší stránce!</h1>
+    <div class="font-ranade height flex tx-white justify-center items-center">
+        <h1 class="tx font-bold">Vítejte na naší stránce!</h1>
     </div>
     <div>
     @livewire('gallery')
     </div>
      <!-- Why Choose Us Section -->
-      <section class="bg">
+      <section x-data="{ open: false }" class="bg-white dark:tx dark:bg-black">
         <div class="py-10 text-center bg-gray-100">
         <h2 class="text-3xl font-semibold">Proč nakupovat u nás?</h2>
         <p class="mt-4 text-lg text-gray-700">Nabízíme nejlepší produkty za nejlepší ceny!</p>

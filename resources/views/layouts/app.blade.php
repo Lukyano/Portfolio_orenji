@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -80,7 +79,7 @@
     </style>
 </head>
 <body class="font-Ranade antialiased  h-screen antialiased" x-data="{darkMode: false}" :class="{'dark': darkMode === true }">
-    <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
+    <div class="min-h-screen bg-gray-100 dark:bg-gray-900>
         <!-- Page transition overlay with "Barvio" text -->
         <div class="page-transition">
             <div class="transition-text">Barvio</div>

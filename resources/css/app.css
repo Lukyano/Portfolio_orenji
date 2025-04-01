@@ -6,6 +6,8 @@
 
 @import './fonts.css';
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 .h50{
     height: -2rem;
 }
@@ -40,5 +42,28 @@ body{
     background-size: cover;
 }
 
-.bg{
+.bg-black{
+    background-color: black;
+}
+
+.tx-white{
+    color: white;
+}
+
+.tx{
+    font-size: 4rem;
+}
+
+.dark\:bg-black:is(.dark *){
+    background-color: black;
+}
+
+.dark\:tx:is(.dark *){
+    color: white;
+}
+
+@media (min-width: 1024px){
+    .pd{
+        padding: 1.25rem 0;
+    }
 }
